@@ -1,16 +1,12 @@
 # news_app_clean_architecture
 
-A new Flutter project.
+You need to create lib\core\constants\constants.dart
+And write in the constants file the next values
+const String newsAPIBaseURL = 'https://newsapi.org/v2';
+const String newsAPIKey = 'your_API_KEY';
+const String countryQuery = 'us';
+const String categoryQuery = 'general';
+const String kDefaultImage =
+    'https://cdn.pixabay.com/photo/2017/06/26/19/03/news-2444778_960_720.jpg';
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project I implement the clean architecture and bloc library
